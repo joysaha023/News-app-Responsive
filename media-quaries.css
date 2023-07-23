@@ -1,0 +1,107 @@
+@media screen and (max-width: 991px) {
+    .main-nav{
+        .main-nav{
+            flex-direction: column;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+        }
+        .cards-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-left: 20px;
+            margin-right: 20px;
+            width: 100%;
+           
+        }
+        .card{
+            margin-top: 20px;
+        }
+        main{
+            margin: 100px;
+            padding-block: 30px;
+        }
+        
+    }
+    .cards-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 20px;
+        margin-right: 20px;
+        row-gap: calc(20px - 10px);
+    }
+    main {
+        padding-block: 20px;
+        margin-top: 80px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    .main-nav{
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .cards-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 100%;
+       
+    }
+    .card{
+        margin-top: 20px;
+    }
+    main{
+        margin: 100px;
+        padding-block: 30px;
+    }
+
+}
+
+
+@media screen and (max-width: 479px) {
+    .main-nav{
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        
+    }
+    .cards-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+         margin-left: 0px;
+        margin-right: 0px;
+        
+        
+       
+    }
+    .card{
+        margin-top: 20px;
+        display: grid;
+        flex-direction: row;
+        justify-content: center;
+        text-align: left;
+        font-size: 1rem;
+        min-width: 100%;
+        
+    }
+    main{
+        margin: 100px;
+        padding-block: 30px;
+    }
+}
